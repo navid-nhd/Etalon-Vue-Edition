@@ -120,27 +120,6 @@
 .gallery-pointer:hover {
     opacity: 1;
 }
-.banner-image-holder::after ,
-.banner-image-holder::before {
-    content: '';
-    background-color: var(--etalon-green-dark);
-    position: absolute;
-    border-radius: 50%;
-    z-index: 1;
-}
-.banner-image-holder::after {
-    width: 192px;
-    height: 190px;
-    bottom: 149px;
-    left: 64px;
-}
-.banner-image-holder::before {
-    width: 198px;
-    height: 198px;
-    bottom: 82px;
-    right: 58px;
-} 
-
 @media  screen and (min-width : 992px) {
     .year-number {
         padding-top: 85px;

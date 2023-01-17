@@ -276,44 +276,7 @@
     height: 16px;
   }
 
-/* ------- BRANDS ------*/
 
-.brands {
-    background-color: var(--etalon-dark);
-}
-
-.brand-link {
-    display: block;
-    padding: 12px 0;
-}
-.brand-image {
-    height: 10px;
-    display: block;
-}
-@media  screen and (min-width : 768px) {
-    .brand-link {
-        padding: 20px 0;
-    }
-    .brand-image {
-        height: 20px;
-    }
-}
-@media  screen and (min-width : 992px) {
-    .brand-link {
-        padding: 25px 0;
-    }
-    .brand-image {
-        height: 30px;
-    }
-}
-@media  screen and (min-width : 1200px) {
-    .brand-link {
-        padding: 30px 0;
-    }
-    .brand-image {
-        height: 40px;
-    }
-}
 /* ------- NEW COLLECTION ------*/
 .section-title {
     font-size: 32px;
