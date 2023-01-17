@@ -1,56 +1,10 @@
 
 
 <template>
-  <section class="intro container-fluid position-relative">           
+  <section class="intro relative">           
     <Header></Header>
-                <section class="banner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 col-lg-6 banner-left-side">
-                                <div class="year-number">
-                                    2022
-                                </div>
-                                <div class="banner-title">
-                                    Autumn <br> Jackets
-                                </div>
-                                <div class="banner-description">
-                                    Autumn Sale / Up to 50% OFF
-                                </div>
-                                <div class="banner-btn">
-                                    <a href="#" class="btn bg-yellow d-inline-block" title="" target="_blank">Open Collection</a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 banner-right-side">
-                               <div class="banner-image-holder">
-                                    <img class="banner-image" src="assets/image/banner-picture.png" alt="jacket">
-                                    <div class="off-amount d-none d-lg-block">
-                                        <div class="off-text"> 40%<br> OFF</div>
-                                    </div>
-                                    <div class="arrow-holder d-none d-lg-flex gap-2">
-                                        <div class="right-arrow">
-                                                <a href="#" title="next" class="">
-                                                    <img src="./assets/image/arrow-small-left.svg" alt="arrow" class="d-block">
-                                                </a>
-                                        </div>
-                                        <div class="left-arrow">
-                                            <a href="#" title="next" class="">
-                                                <img src="./assets/image/arrow-small-left.svg" alt="arrow" class="d-block">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="price-holder d-none d-lg-block">
-                                        <div class="price">$299</div>
-                                    </div>
-                                     <div class="gallery-pointer-holder">
-                                        <div class="gallery-pointer"></div>
-                                        <div class="gallery-pointer"></div>
-                                        <div class="gallery-pointer"></div>
-                                    </div> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+    <Banner></Banner>
+        
         </section>
         <section class="brands container-fluid" id="brands">
             <div class="container">
@@ -274,12 +228,12 @@
 
 <script >
 import Header from '@/components/etalon/Header.vue'
-
+import Banner from '@/components/etalon/Banner.vue'
 
 
 export default{
   components: {
-    Header,
+    Header,Banner,
   },
   data (){
     return{
